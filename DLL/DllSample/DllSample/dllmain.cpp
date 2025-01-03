@@ -58,7 +58,8 @@ int WINAPI GetStaticTest(void)
     return g_nTest;
 }
 
-__declspec(thread) int g_tlsData = 0;
+__declspec(thread) int g_tlsData = 0; // each thread has its own copy of the variable(TLS).
+// if delete g_tlsData, it will destroy each threads
 
 void WINAPI SetTlsData(int nParam)
 {
