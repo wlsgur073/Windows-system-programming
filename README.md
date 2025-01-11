@@ -1,4 +1,4 @@
-# Be a Better Software Developer
+# To be a better Software Developer
 
 you can search all WinAPI functions on the [vergiliusproject](https://www.vergiliusproject.com/)
 
